@@ -1,4 +1,4 @@
-# 🎯 fiveweb-php-discord-oauth2
+# 🎯 fiveweb-php-discord-oauth
 
 A simple, secure, and dependency-free implementation of Discord OAuth2 in pure PHP.  
 Perfect for lightweight projects, FiveM UCPs, admin panels, or any PHP-based web application that needs Discord login functionality.
