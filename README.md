@@ -22,7 +22,7 @@ Follow these steps to integrate and begin using Discord OAuth2 for your PHP proj
 ### 1. **Clone the repository:**
 Clone the repository into your project directory:
 ```bash
-git clone https://github.com/FiveWeb/discord-oauth2-php.git
+git clone https://github.com/fiveweb-internal/fiveweb-php-discord-oauth.git
 cd discord-oauth2-php
 ```
 
@@ -67,7 +67,7 @@ require_once 'discord.php';
 $discord = new DiscordOAuth();
 $user = $discord->getUser();
 
-echo 'Logged in as ' . htmlspecialchars($user['username'] . '#' . $user['discriminator']);
+echo 'Logged in as ' . htmlspecialchars($user['username']);
 ```
 
 ---
