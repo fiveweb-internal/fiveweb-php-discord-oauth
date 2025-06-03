@@ -1,0 +1,6 @@
+RewriteEngine On
+
+Require all granted
+
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ /public/$1 [L]
